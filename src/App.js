@@ -12,8 +12,8 @@ function App() {
   useEffect(() => {
     const initData = tg.initData;
     if (initData) {
-      const startParams = JSON.parse(initData);
-      alert(startParams)
+      // const startParams = JSON.parse(initData);
+      alert(initData)
       // use the data as needed in your React app
     }
   }, [tg]);
