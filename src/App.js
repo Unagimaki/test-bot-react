@@ -11,14 +11,10 @@ function App() {
 
   useEffect(() => {
     tg.ready()
-  }, [tg])
-
-
-  useEffect(() => {
     alert(tg.initDataUnsafe)
     alert(tg.initData)
-    // use the data as needed in your React app
-  }, []);
+  }, [tg])
+
 
   return (
     <div className="App">
