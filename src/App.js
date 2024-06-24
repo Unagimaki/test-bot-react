@@ -16,6 +16,7 @@ function App() {
       const foo = startParams.foo;
       const baz = startParams.baz;
       alert(foo, baz); // output: bar qux
+      alert(startParams)
       // use the data as needed in your React app
     }
   }, [initData]);
