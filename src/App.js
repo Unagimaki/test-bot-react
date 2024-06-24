@@ -10,8 +10,8 @@ function App() {
 
   useEffect(() => {
     tg.ready()
-  }, [])
-  
+  }, [tg])
+
   return (
     <div className="App">
       <h1>App work!</h1> <br/>
