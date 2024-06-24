@@ -19,7 +19,7 @@ function App() {
       alert(startParams)
       // use the data as needed in your React app
     }
-  }, [initData]);
+  }, []);
 
 
   return (
