@@ -12,7 +12,7 @@ function App() {
   useEffect(() => {
     tg.ready()
     alert('chat: ' + chat)
-  }, [tg])
+  }, [tg, chat])
 
 
   return (
