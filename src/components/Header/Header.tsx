@@ -7,7 +7,7 @@ export const Header = () => {
     return(
         <header>
             <h1>{username}</h1>
-            <Button>Закрыть</Button>
+            <Button text={'Закрыть'}/>
 
         </header>
     )
