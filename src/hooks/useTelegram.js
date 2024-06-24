@@ -9,7 +9,7 @@ export const useTelegram = () => {
             tg.MainButton.show()
         }
     }
-    const username = tg.initDatUnsafe?.user.username
+    const username = tg.initDataUnsafe?.user.username
     return {
         tg,
         username,
