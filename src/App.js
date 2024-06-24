@@ -11,8 +11,7 @@ function App() {
 
   useEffect(() => {
     tg.ready()
-    alert(tg.initDataUnsafe)
-    alert(tg.initData)
+    alert('chat: ' + tg.WebAppChat)
   }, [tg])
 
 
