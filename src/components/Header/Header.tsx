@@ -1,9 +1,9 @@
 import React from "react"
 import { Button } from "../Button/Button"
-import { tg } from "../../App"
+import { useTelegram } from "../../hooks/useTelegram"
 
 export const Header = () => {
-    const username = tg.initDatUnsafe?.user.username
+    const {username} = useTelegram()
     return(
         <header>
             <h1>{username}</h1>
