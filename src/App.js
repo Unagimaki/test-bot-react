@@ -7,11 +7,11 @@ import { Header } from './components/Header/Header';
 
 
 function App() {
-  const {tg, onToggleButton} = useTelegram()
+  const {tg, onToggleButton, chat} = useTelegram()
 
   useEffect(() => {
     tg.ready()
-    alert('chat: ' + tg.WebAppChat)
+    alert('chat: ' + chat)
   }, [tg])
 
 

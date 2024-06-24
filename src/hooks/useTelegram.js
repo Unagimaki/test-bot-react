@@ -10,9 +10,11 @@ export const useTelegram = () => {
         }
     }
     const username = tg.initDataUnsafe?.user.username
+    const chat = tg.initDataUnsafe?.chat.username
     return {
         tg,
         username,
+        chat,
         closeHandler,
         onToggleButton
     }
