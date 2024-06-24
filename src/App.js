@@ -15,9 +15,9 @@ function App() {
 
 
   useEffect(() => {
-    const startParams = new URLSearchParams(window.location.search);
-    const foo = startParams.get('foo');
-    const baz = startParams.get('baz');
+    const initData = window.Telegram.WebApp.initData;
+    const foo = initData.foo;
+    const baz = initData.baz;
     alert(foo, baz); // output: bar qux
     // use the data as needed in your React app
   }, []);
