@@ -13,12 +13,12 @@ function App() {
     tg.ready()
   }, [tg])
 
-  
+
   useEffect(() => {
     const startParams = new URLSearchParams(window.location.search);
     const foo = startParams.get('foo');
     const baz = startParams.get('baz');
-    console.log(foo, baz); // output: bar qux
+    alert(foo, baz); // output: bar qux
     // use the data as needed in your React app
   }, []);
 
