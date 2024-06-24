@@ -15,8 +15,8 @@ function App() {
 
 
   useEffect(() => {
-    const startParams = new URLSearchParams(window.location.search)
-    alert(startParams)
+    alert(tg.initDataUnsafe)
+    alert(tg.initData)
     // use the data as needed in your React app
   }, []);
 
