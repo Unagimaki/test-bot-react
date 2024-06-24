@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import './App.css';
-const tg = window.Telegram.WebApp
+
+export const tg = window.Telegram.WebApp
 
 
 
@@ -10,6 +11,7 @@ function App() {
   }, [])
   const closeHandler = () => {
     tg.close()
+    
   }
   return (
     <div className="App">
