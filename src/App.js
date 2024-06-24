@@ -7,10 +7,10 @@ import { Header } from './components/Header/Header';
 
 
 function App() {
-  const {tg, onToggleButton, chat} = useTelegram()
+  const {tg, onToggleButton} = useTelegram()
 
   useEffect(() => {
-    const initData = window.Telegram.WebApp.initData;
+    const initData = tg.initData;
     if (initData) {
       const startParams = JSON.parse(initData);
       const foo = startParams.foo;
@@ -19,7 +19,7 @@ function App() {
       alert(startParams)
       // use the data as needed in your React app
     }
-  }, []);
+  }, [tg]);
 
 
   return (
