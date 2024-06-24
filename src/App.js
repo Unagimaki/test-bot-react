@@ -7,23 +7,23 @@ import { Header } from './components/Header/Header';
 
 
 function App() {
-  const {tg, onToggleButton} = useTelegram()
+  // const {tg, onToggleButton} = useTelegram()
 
-  useEffect(() => {
-    const initData = tg.initData;
-    if (initData) {
-      // const startParams = JSON.parse(initData);
-      alert(initData)
-      // use the data as needed in your React app
-    }
-  }, [tg]);
+  // useEffect(() => {
+  //   const initData = tg.initData;
+  //   if (initData) {
+  //     // const startParams = JSON.parse(initData);
+  //     alert(initData)
+  //     // use the data as needed in your React app
+  //   }
+  // }, [tg]);
 
 
   return (
     <div className="App">
       <h1>App work!</h1> <br/>
       <Header/>
-      <button onClick={onToggleButton}>toggle</button>
+      <button>toggle</button>
     </div>
   );
 }
