@@ -13,8 +13,6 @@ function App() {
     const initData = tg.initData;
     if (initData) {
       const startParams = JSON.parse(initData);
-      const foo = startParams.foo;
-      const baz = startParams.baz;
       alert(startParams)
       // use the data as needed in your React app
     }
