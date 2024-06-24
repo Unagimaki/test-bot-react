@@ -15,9 +15,7 @@ function App() {
   useEffect(() => {
     const startParams = new URLSearchParams(window.location.search);
     const foo = startParams.get('foo');
-    const baz = startParams.get('baz');
-    console.log(foo, baz); // output: bar qux
-    // use the data as needed in your React app
+    alert(foo)
   }, []);
 
   return (
