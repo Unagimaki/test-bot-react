@@ -6,7 +6,7 @@ export const Header = () => {
     const {username} = useTelegram()
     return(
         <header>
-            <h1>{username}</h1>
+            {/* <h1>{username}</h1> */}
             <Button text={'Закрыть'}/>
 
         </header>
