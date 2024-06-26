@@ -2,7 +2,6 @@
 import { useEffect } from 'react';
 import './App.css';
 // import { useTelegram } from './hooks/useTelegram';
-import { Header } from './components/Header/Header';
 
 
 
@@ -28,10 +27,10 @@ function App() {
 
   return (
     <div className="App">
-      <ul>
-        <li>Grammar: 5</li>
-        <li>Relevance: 5</li>
-        <li>Terminology: 5</li>
+      <ul className='ul'>
+        <li>Grammar:  <br/> <div className='line'></div> </li>
+        <li>Relevance: </li>
+        <li>Terminology: </li>
       </ul>
     </div>
   );
