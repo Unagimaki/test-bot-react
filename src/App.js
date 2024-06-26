@@ -9,7 +9,8 @@ import { Header } from './components/Header/Header';
 
 function App() {
   useEffect(() => {
-    const urlParams = new URLSearchParams(window.location.search);
+    const urlParams = new URLSearchParams(window.location.search)
+    console.log(url);
     console.log(parseInt(urlParams))
     const grammar = parseInt(urlParams.get('score(grammar)'));
     const relevance = parseInt(urlParams.get('score(relevance)'));
