@@ -24,9 +24,7 @@ function App() {
   });  
   useEffect(() => {
     const urlParams = new URLSearchParams(window.location.search)
-    const grammar = parseInt(urlParams.get('score(grammar)'));
-    const relevance = parseInt(urlParams.get('score(relevance)'));
-    const terminology = parseInt(urlParams.get('score(terminology)'));
+    alert(urlParams)
   }, []);
 
   return (
