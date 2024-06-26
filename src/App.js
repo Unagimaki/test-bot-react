@@ -24,7 +24,6 @@ function App() {
   });  
   useEffect(() => {
     const urlParams = new URLSearchParams(window.location.search)
-    alert(urlParams)
   }, []);
 
   return (
