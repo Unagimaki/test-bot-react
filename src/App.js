@@ -23,7 +23,7 @@ function App() {
     console.log(`Word: ${word}, Number: ${decodeURIComponent(number)}`);
   });  
   useEffect(() => {
-    const urlParams = new URLSearchParams(window.location.search)
+    // const urlParams = new URLSearchParams(window.location.search)
   }, []);
 
   return (
