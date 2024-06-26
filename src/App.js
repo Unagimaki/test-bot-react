@@ -29,9 +29,11 @@ function App() {
 
   return (
     <div className="App">
-      <h1>App work!</h1> <br/>
-      <Header/>
-      <button>toggle</button>
+      <ul>
+        <li>Grammar: 5</li>
+        <li>Relevance: 5</li>
+        <li>Terminology: 5</li>
+      </ul>
     </div>
   );
 }
