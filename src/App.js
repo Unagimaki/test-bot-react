@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="App">
       <ul className='ul'>
-        <li>Grammar:  <br/> <div className='line'></div> </li>
+        <li>Grammar:  <div className='line'></div> </li>
         <li>Relevance: <div className='line'></div></li>
         <li>Terminology: <div className='line'></div></li>
       </ul>
