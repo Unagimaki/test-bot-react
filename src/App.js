@@ -8,22 +8,14 @@ import { Header } from './components/Header/Header';
 
 
 function App() {
-  // const {tg, onToggleButton} = useTelegram()
-
-  // useEffect(() => {
-  //   const initData = tg.initData;
-  //   if (initData) {
-  //     // const startParams = JSON.parse(initData);
-  //     alert(initData)
-  //     // use the data as needed in your React app
-  //   }
-  // }, [tg]);
-
   useEffect(() => {
     const urlParams = new URLSearchParams(window.location.search);
-    alert(urlParams)
-  })
-
+    const grammar = parseInt(urlParams.get('score(grammar)'));
+    const relevance = parseInt(urlParams.get('score(relevance)'));
+    const terminology = parseInt(urlParams.get('score(terminology)'));
+  
+    alert(`grammar: ${grammar}, relevance: ${relevance}, terminology: ${terminology}`);
+  }, []);
 
   return (
     <div className="App">
