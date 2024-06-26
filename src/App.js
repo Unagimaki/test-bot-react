@@ -28,9 +28,9 @@ function App() {
   return (
     <div className="App">
       <ul className='ul'>
-        <li>Grammar:  <div className='line'></div> </li>
-        <li>Relevance: <div className='line'></div></li>
-        <li>Terminology: <div className='line'></div></li>
+        <li className='li'>Grammar:  <div className='line'></div> </li>
+        <li className='li'>Relevance: <div className='line'></div></li>
+        <li className='li'>Terminology: <div className='line'></div></li>
       </ul>
     </div>
   );
