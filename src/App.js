@@ -29,8 +29,8 @@ function App() {
     <div className="App">
       <ul className='ul'>
         <li>Grammar:  <br/> <div className='line'></div> </li>
-        <li>Relevance: </li>
-        <li>Terminology: </li>
+        <li>Relevance: <div className='line'></div></li>
+        <li>Terminology: <div className='line'></div></li>
       </ul>
     </div>
   );
